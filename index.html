@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Nayan, Junior Full Stack Developer">
+    <title>Nayan | Junior Full Stack Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Feather Icons for sleek SVG icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="blob-cont">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Nayan Mohan T</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="gradient-text">Nayan</h1>
+                <h2 class="subtitle">Junior Full Stack Developer</h2>
+                <p class="intro">
+                    Building robust, scalable, and visually engaging web applications. Bridging the gap between beautiful design and flawless functionality.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="resume.pdf" download="Nayan_Mohan_Resume.pdf" class="btn btn-secondary">
+                        <i data-feather="download"></i> Resume
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Nayanmohant" aria-label="GitHub" class="social-icon"><i data-feather="github"></i></a>
+                    <a href="https://www.linkedin.com/in/nayan-mohan-t-99958b312" aria-label="LinkedIn" class="social-icon"><i data-feather="linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2 class="section-title gradient-text fade-in">About Me</h2>
+            <div class="about-container glass-card fade-in">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full Stack Developer with a solid foundation in computer science, holding both a <strong>B.Tech in CSE</strong> and a <strong>Diploma in Computer Science & Engineering</strong>.
+                    </p>
+                    <p>
+                        I love tackling complex problems and building end-to-end solutions. My experience spans from crafting intuitive frontend interfaces to designing robust backend architectures and managing databases.
+                    </p>
+                    <p>
+                        I am constantly exploring new technologies and patterns to deliver high-quality, performant applications.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>Education</h3>
+                        <p>B.Tech CSE</p>
+                        <p>Diploma CSE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title gradient-text fade-in">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card fade-in">
+                    <div class="skill-header">
+                        <i data-feather="layout"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML5 & CSS3</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category glass-card fade-in" style="transition-delay: 100ms;">
+                    <div class="skill-header">
+                        <i data-feather="server"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card fade-in" style="transition-delay: 200ms;">
+                    <div class="skill-header">
+                        <i data-feather="database"></i>
+                        <h3>Database</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>Stored Procedures</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card fade-in" style="transition-delay: 300ms;">
+                    <div class="skill-header">
+                        <i data-feather="tool"></i>
+                        <h3>Other Tools</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>REST APIs</li>
+                        <li>JWT Authentication</li>
+                        <li>Firebase</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title gradient-text fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-in">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Solaris CRM</h3>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+                                <a href="#" aria-label="External Link"><i data-feather="external-link"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">A comprehensive Customer Relationship Management system built to streamline business operations and improve client interactions.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-in" style="transition-delay: 100ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Study Abroad CRM</h3>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+                                <a href="#" aria-label="External Link"><i data-feather="external-link"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">A specialized CRM tailored for study abroad agencies, managing student applications, university partnerships, and document workflows.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card fade-in" style="transition-delay: 200ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Voice Enabled IDE</h3>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+                                <a href="#" aria-label="External Link"><i data-feather="external-link"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">An innovative Integrated Development Environment tailored for programming through voice commands, enhancing accessibility.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Web Speech API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card fade-in" style="transition-delay: 300ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>StayPaw</h3>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+                                <a href="#" aria-label="External Link"><i data-feather="external-link"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">A modern web application dedicated to pet care, boarding management, and connecting pet owners with service providers.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title gradient-text fade-in">Experience</h2>
+            <div class="timeline fade-in">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="timeline-date">Current</span>
+                        </div>
+                        <h4 class="company">UFS Technologies</h4>
+                        <p class="timeline-desc">
+                            Responsible for designing, developing, and maintaining full-stack applications. Collaborated with cross-functional teams to implement scalable architectures, optimize database queries, and create seamless user interfaces.
+                        </p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title gradient-text fade-in">Get In Touch</h2>
+            <div class="contact-container glass-card fade-in">
+                <div class="contact-info">
+                    <h3>Let's talk about your next project</h3>
+                    <p>Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i data-feather="mail"></i>
+                            <a href="mailto:nayanmohant00@gmail.com">nayanmohant00@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <i data-feather="linkedin"></i>
+                            <a href="https://www.linkedin.com/in/nayan-mohan-t-99958b312">linkedin.com/in/nayan</a>
+                        </div>
+                        <div class="contact-method">
+                            <i data-feather="github"></i>
+                            <a href="https://github.com/Nayanmohant">github.com/nayan</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required placeholder="Hello Nayan..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <i data-feather="send"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nayan. Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
